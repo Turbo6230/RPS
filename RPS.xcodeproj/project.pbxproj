@@ -13,6 +13,8 @@
 		D714CCD3261F2D1500486528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D714CCD1261F2D1500486528 /* Main.storyboard */; };
 		D714CCD5261F2D1700486528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D714CCD4261F2D1700486528 /* Assets.xcassets */; };
 		D714CCD8261F2D1700486528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D714CCD6261F2D1700486528 /* LaunchScreen.storyboard */; };
+		D714CCE3261F334200486528 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714CCE2261F334200486528 /* Sign.swift */; };
+		D714CCE6261F34B500486528 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714CCE5261F34B500486528 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		D714CCD4261F2D1700486528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D714CCD7261F2D1700486528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D714CCD9261F2D1700486528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D714CCE0261F2D4F00486528 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D714CCE2261F334200486528 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		D714CCE5261F34B500486528 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 		D714CCBF261F2D1500486528 = {
 			isa = PBXGroup;
 			children = (
+				D714CCE0261F2D4F00486528 /* README.md */,
 				D714CCCA261F2D1500486528 /* RPS */,
 				D714CCC9261F2D1500486528 /* Products */,
 			);
@@ -60,11 +66,21 @@
 				D714CCCD261F2D1500486528 /* SceneDelegate.swift */,
 				D714CCCF261F2D1500486528 /* ViewController.swift */,
 				D714CCD1261F2D1500486528 /* Main.storyboard */,
+				D714CCE1261F32DB00486528 /* models */,
 				D714CCD4261F2D1700486528 /* Assets.xcassets */,
 				D714CCD6261F2D1700486528 /* LaunchScreen.storyboard */,
 				D714CCD9261F2D1700486528 /* Info.plist */,
 			);
 			path = RPS;
+			sourceTree = "<group>";
+		};
+		D714CCE1261F32DB00486528 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D714CCE2261F334200486528 /* Sign.swift */,
+				D714CCE5261F34B500486528 /* GameState.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +155,8 @@
 			files = (
 				D714CCD0261F2D1500486528 /* ViewController.swift in Sources */,
 				D714CCCC261F2D1500486528 /* AppDelegate.swift in Sources */,
+				D714CCE6261F34B500486528 /* GameState.swift in Sources */,
+				D714CCE3261F334200486528 /* Sign.swift in Sources */,
 				D714CCCE261F2D1500486528 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
