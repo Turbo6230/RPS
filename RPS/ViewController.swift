@@ -20,7 +20,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var lizardButton: UIButton!
     @IBOutlet weak var spockButton: UIButton!
     
+    @IBOutlet weak var resultLabel: UILabel!
+    
     @IBOutlet weak var playAgain: UIButton!
+    
+    var result = ""
+    
     
     
     override func viewDidLoad() {
